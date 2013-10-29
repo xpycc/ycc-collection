@@ -1,4 +1,4 @@
-set ts=4 sw=4 nu hls 
+set ts=4 sw=4 nu hls
 autocmd filetype c,cpp,java,cs,cuda,scala set ai cin ts=2 sw=2 et
 autocmd filetype python,ruby,perl set ai
 "set mp=g++\ %\ -o\ %<\ -O2\ -s
@@ -21,6 +21,10 @@ au BufNewFile,BufRead *.cxx set syntax=cpp11
 " scala syntax, plugin needed
 au BufNewFile,BufRead *.scala set syntax=scala
 au BufNewFile,BufRead *.sc set syntax=scala
+
+if !has("gui_running")
+	colorscheme mydefault
+endif
 
 " Handle tmux $TERM quirks in vim
 if $TERM =~ '^screen-256color'
