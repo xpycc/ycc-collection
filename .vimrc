@@ -9,7 +9,7 @@ else
 endif
 
 map <F6> :!./%<<CR>
-map <F8> :source /usr/share/vim/vim73/syntax/2html.vim<CR>
+map <F8> :source /usr/share/vim/vim74/syntax/2html.vim<CR>
 " map <F12> :!ctags -R --c++-kinds=+px --fields=+iaS --extra=+q .<CR>
 
 map <F2> :tabnew<CR>
