@@ -22,8 +22,8 @@ if exists("syntax_on")
     hi Search        term=reverse ctermfg=0 ctermbg=226 guibg=Yellow
     hi MoreMsg       term=bold ctermfg=28 cterm=bold guifg=SeaGreen
     hi ModeMsg       term=bold cterm=bold gui=bold
-    hi LineNr        term=underline ctermfg=88 guifg=Brown
-    hi CursorLineNr  term=bold ctermfg=1 cterm=bold gui=bold guifg=Brown
+    hi LineNr        term=underline ctermfg=130 guifg=Brown
+    hi CursorLineNr  term=bold ctermfg=130 cterm=bold gui=bold guifg=Brown
     hi Question      term=standout ctermfg=28 cterm=bold gui=bold guifg=SeaGreen
     hi StatusLine    term=bold,reverse cterm=bold ctermfg=16 ctermbg=7 gui=bold,reverse
     hi StatusLineNC  term=reverse cterm=reverse ctermfg=7 ctermbg=0 gui=reverse
@@ -62,7 +62,7 @@ if exists("syntax_on")
     hi Constant      term=underline ctermfg=201 guifg=Magenta
     hi Special       term=bold ctermfg=99 guifg=SlateBlue
     hi Identifier    term=underline ctermfg=31 guifg=DarkCyan
-    hi Statement     term=bold ctermfg=88 gui=bold guifg=Brown
+    hi Statement     term=bold ctermfg=130 gui=bold guifg=Brown
     hi PreProc       term=underline ctermfg=53 guifg=Purple
     hi Type          term=underline ctermfg=28 gui=bold guifg=SeaGreen
     hi Underlined    term=underline cterm=underline ctermfg=93 gui=underline guifg=SlateBlue
