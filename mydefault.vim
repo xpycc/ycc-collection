@@ -62,7 +62,7 @@ if exists("syntax_on")
     hi Constant      term=underline ctermfg=201 guifg=Magenta
     hi Special       term=bold ctermfg=99 guifg=SlateBlue
     hi Identifier    term=underline ctermfg=31 guifg=DarkCyan
-    hi Statement     term=bold ctermfg=130 gui=bold guifg=Brown
+    hi Statement     term=bold ctermfg=88 gui=bold guifg=Brown
     hi PreProc       term=underline ctermfg=53 guifg=Purple
     hi Type          term=underline ctermfg=28 gui=bold guifg=SeaGreen
     hi Underlined    term=underline cterm=underline ctermfg=93 gui=underline guifg=SlateBlue
